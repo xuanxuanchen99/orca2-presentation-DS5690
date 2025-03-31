@@ -47,7 +47,7 @@ Orca 2-13B matches or beats LLaMA-2-Chat 70B and WizardLM 70B on reasoning bench
 
 ### Focus on Reasoning, Not Dialogue: 
 
-Unlike chat models, Orca 2 is not optimized for chit-chat. It is trained purely to think.
+Unlike chat models, Orca 2 is not optimized for chat. It is trained to think.
 
 ## Training Process with Pseudocode
 
