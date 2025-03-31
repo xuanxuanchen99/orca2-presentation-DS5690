@@ -33,10 +33,6 @@ Orca 2 is a small model trained using outputs from GPT 4. Specific reasoning str
 
 #### Direct answering
 
-#### Explain-then-answer
-
-#### Tool-use imitation
-
 ### Prompt Erasing: 
 
 After GPT 4 creates a response using a specific reasoning style, the system instruction is removed. This helps the small model learn the reasoning process on its own instead of just copying the prompt wording.
