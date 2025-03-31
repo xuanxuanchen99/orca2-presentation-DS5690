@@ -74,6 +74,13 @@ Unlike chat models, Orca 2 is not optimized for chat. It is trained to think.
 
 This process helps the model learn to choose the right way to solve each kind of problem.
 
+## Code Demonstration
+
+The jupyter notebook in this repo demonstrates the reasoning styles used to train Orca 2-7B which is available at
+
+https://huggingface.co/microsoft/Orca-2-7b
+
+
 ## Results
 
 Orca 2-13B beats models like LLaMA-2-70B and WizardLM-70B on 15 zero-shot reasoning benchmarks.
@@ -96,11 +103,11 @@ Encourages better transfer to unseen tasks
 
 ### Limitations
 
+No RLHF (reinforcement learning with human feedback), so not ideal for safety-critical applications
+
 Still depends on GPT-4 outputs
 
 **Question 2: What are the risks of relying on synthetic data from GPT 4?**
-
-No RLHF (reinforcement learning with human feedback), so not ideal for safety-critical applications
 
 ### Future work
 
@@ -117,12 +124,6 @@ Makes AI cheaper, faster, and more energy-efficient
 Enables small models to work in low-resource settings
 
 Encourages future research into training strategies over brute-force scaling
-
-## Code Demonstration
-
-The jupyter notebook in this repo demonstrates the reasoning styles used to train Orca 2-7B which is available at
-
-https://huggingface.co/microsoft/Orca-2-7b
 
 ## Resource Links
 
